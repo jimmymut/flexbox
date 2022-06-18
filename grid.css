@@ -3,25 +3,30 @@
     padding: 0;
 }
 body{
-    /* display: flex; */
-    /* align-items: center;
-    justify-content: center;
-    height: 100vh; */
+    background-color: indigo;
+    width: 50%;
+    margin: auto;
+    
 }
 main{
     display: grid;
     grid-template-areas: 
     'a a b'
     'c d d'
-    'c d d'
+    'c e e'
     ;
-    gap: 20px;
+    gap: 10px;
+    margin-top: 150px;
 }
 main div{
+    
     border: 1px solid;
-    width: 100%;
-    height: 100px;
+    padding: 50px;
 }
+/* .lastcont div{
+    margin: 0;
+    width: 100%;
+} */
 .A{
     background-color: #be5020;
     grid-area: a;
@@ -41,4 +46,8 @@ main div{
 .E{
     background-color: #01aefd;
     grid-area: e;
+}
+a{
+    color: white;
+    font-size: 200%;
 }
