@@ -3,66 +3,76 @@
     padding: 0;
     box-sizing: border-box;
 }
-@media screen and (min-width: 375px) and (max-width: 1440px) { 
-    button{
-        width: 50%;
-        margin: 40px;
-        border-radius: 15px;
-        padding: 5px;
-        background: hsl(0, 0%, 95%);
-        border: none;
-    }
-    .container-1{
-        background-color: hsl(31, 77%, 52%);
-    }
-    .container-2{
-        background-color: hsl(184, 100%, 22%);
-    }
-    .container-3{
-        background-color: hsl(179, 100%, 13%);
-    }
-    p{
-        font-family: Lexend Deca;
-        font-weight: 400;
-        color: hsla(0, 0%, 100%, 0.75);
-        margin: 20px;
-    }
-    h1{
-        color: hsl(0, 0%, 95%);
-        font-family: Big Shoulders Display;
-        font-weight: 700;
-        padding-top: 40px;
-        margin: 20px;
-    }
+@media screen and (width: 375px){
     body{
-        margin: 0;
-    }
-    main{
-        width: 50%;
-        height: auto;
-        margin: auto;
-        margin-top: 120px;
-    }
-    .container{
-         
         display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 15px;
+        flex-direction: column;
     }
-    .button-1{
-        color: hsl(31, 77%, 52%);
-    }
-    .button-2{
-        color: hsl(184, 100%, 22%);
-    }
-    .button-3{
-        color: hsl(179, 100%, 13%);
-    }
-    a{
-        font-size: 200%;
-        color: blue;
-        text-align: center;
-        margin-left: 50%;
-    }
+} 
+button{
+    width: 50%;
+    margin: 40px;
+    border-radius: 15px;
+    padding: 5px;
+    background: hsl(0, 0%, 95%);
+    border: none;
+}
+.container-1{
+    background-color: hsl(31, 77%, 52%);
+}
+.container-2{
+    background-color: hsl(184, 100%, 22%);
+}
+.container-3{
+    background-color: hsl(179, 100%, 13%);
+}
+p {
+    font-family: Lexend Deca;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: 20px;
+}
+h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: Big Shoulders Display;
+    font-weight: 700;
+    padding-top: 40px;
+    margin: 20px;
+}
+body {
+    margin: 0;
+}
+main {
+    width: 50%;
+    height: auto;
+    margin: auto;
+    margin-top: 120px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+.button-1 {
+    color: hsl(31, 77%, 52%);
+}
+.button-2 {
+    color: hsl(184, 100%, 22%);
+}
+.button-3 {
+    color: hsl(179, 100%, 13%);
+}
+a {
+    font-size: 200%;
+    color: blue;
+    text-align: center;
+    margin-left: 50%;
+}
+.heading1{
+    text-align: center;
+    color: #000;
+}
+@media screen and (max-width: 1440px){
+
 }
